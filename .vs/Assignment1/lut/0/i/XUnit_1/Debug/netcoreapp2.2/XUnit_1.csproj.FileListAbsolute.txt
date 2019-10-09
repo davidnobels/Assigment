@@ -1,0 +1,15 @@
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\XUnit_1.deps.json
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\XUnit_1.runtimeconfig.json
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\XUnit_1.runtimeconfig.dev.json
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\XUnit_1.dll
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\i\XUnit_1\Debug\netcoreapp2.2\XUnit_1.csprojAssemblyReference.cache
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\i\XUnit_1\Debug\netcoreapp2.2\XUnit_1.csproj.CoreCompileInputs.cache
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\i\XUnit_1\Debug\netcoreapp2.2\XUnit_1.AssemblyInfoInputs.cache
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\i\XUnit_1\Debug\netcoreapp2.2\XUnit_1.AssemblyInfo.cs
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\i\XUnit_1\Debug\netcoreapp2.2\XUnit_1.csproj.CopyComplete
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\i\XUnit_1\Debug\netcoreapp2.2\XUnit_1.dll
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\Assignment1.Views.dll
+D:\MOONLAY\Assignment1\.vs\Assignment1\lut\0\b\XUnit_1\Debug\netcoreapp2.2\Assignment1.Views.pdb

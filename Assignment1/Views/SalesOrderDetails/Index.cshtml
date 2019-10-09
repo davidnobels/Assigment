@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Assignment1.Models.SalesOrderDetail>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<script>
+    $(document).ready(function () {
+        $('#dtBasicExample').DataTable();
+    });
+</script>
+
+@{ 
+    ViewBag.Title = "Sales Order Details";
+}
+
+<h1>Sales Order Detail List</h1>
+
+<p>
+    <a asp-controller="SalesOrderDetails" asp-action="Create">Create New</a>
+</p>
+<table class="table table-striped table-bordered table-sm" id="dtBasicExample" cellspacing="0" width="100%"">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderQty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPriceDiscount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LineTotal)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Rowguid)
+            </th>*@
+            <th>
+                <a asp-action="Index" asp-route-sortDate="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.ModifiedDate)</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SalesOrder)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderQty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPriceDiscount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LineTotal)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Rowguid)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SalesOrder.SalesOrderNumber)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ id = item.SalesOrderDetailId }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */id =item.SalesOrderDetailId }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ id = item.SalesOrderDetailId })
+                @*<a asp-action="Edit" asp-route-id="@item.SalesOrderDetailId">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.SalesOrderDetailId">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.SalesOrderDetailId">Delete</a>*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
